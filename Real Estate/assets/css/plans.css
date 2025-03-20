@@ -1,0 +1,80 @@
+
+/* Pricing Section */
+
+.pricing {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 800px; /* Prevents too many columns */
+    margin: 0 auto 5vh auto; /* Centers the section */
+}
+
+.pricing-section h2 {
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 40px;
+}
+
+/* Individual Pricing Card */
+.pricing-card {
+    background-color: var(--color1);
+    border: 2px solid black;
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+
+.pricing-card:hover {
+    transform: scale(1.05);
+}
+
+/* Pricing Card Headings */
+.pricing-card h3 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.pricing-card h1 {
+    font-size: 5rem;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Sign Up Button */
+.signup-btn {
+    background: none;
+    border: 2px solid black;
+    color: var(--color1);
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background 0.3s ease-in-out;
+}
+
+.signup-btn:hover {
+    background: var(--color1);
+    color: #121212;
+}
+
+/* Popular Badge */
+.badge {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background-color: grey;
+    color: #121212;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 50%;
+    text-transform: uppercase;
+    clip-path: polygon(
+        50% 0%, 63% 18%, 83% 7%, 92% 28%, 100% 50%,
+        92% 72%, 83% 93%, 63% 82%, 50% 100%, 37% 82%, 
+        17% 93%, 8% 72%, 0% 50%, 8% 28%, 17% 7%, 37% 18%
+    ); /* Creates a spiked/star shape */
+}

@@ -1,0 +1,53 @@
+
+/* Services Section */
+.services {
+    padding: 0%;
+    margin: 0px;
+  }
+  
+  .services h2 {
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 40px;
+  }
+  
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Responsive grid */
+    gap: 40px; /* Space between boxes */
+  }
+  
+  .service-box {
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.7s ease, box-shadow 0.5s ease;
+  }
+  
+  .service-box:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+    background-color: var(--color2);
+  }
+  
+  .service-box:hover h3,
+  .service-box:hover p {
+    color: #EFE7DA; /* Change text color on hover */
+  }
+  
+  .service-box h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #333;
+  
+  }
+  
+  .service-box p {
+    font-size: 1rem;
+    color: #666;
+  }
+
+  .service-box .material-icons {
+    font-size: 2rem;
+    color: var(--color2)
+  }
