@@ -1,5 +1,15 @@
 
+@import url('variables.css');
+
 /* Pricing Section */
+
+.pricing-section {
+    font-family: var(--font-secondary);
+    background-color: var(--color2);
+    clip-path: polygon(32% 0%, 100% 10%, 100% 100%, 0% 100%, 0% 10%);
+    padding: 5%;
+    margin-top: 5%;
+}
 
 .pricing {
     display: flex;
@@ -7,19 +17,18 @@
     justify-content: center;
     flex-wrap: wrap;
     max-width: 800px; /* Prevents too many columns */
-    margin: 0 auto 5vh auto; /* Centers the section */
+    margin: 0 auto; /* Centers the section */
 }
 
 .pricing-section h2 {
     text-align: center;
     font-size: 5rem;
-    margin-bottom: 40px;
+    font-family: var(--font-primary);
 }
 
 /* Individual Pricing Card */
 .pricing-card {
     background-color: var(--color1);
-    border: 2px solid black;
     padding: 30px;
     text-align: center;
     width: 300px;
@@ -35,29 +44,32 @@
 .pricing-card h3 {
     margin-top: 0;
     font-size: 18px;
+    font-family: var(--font-primary);
 }
 
 .pricing-card h1 {
     font-size: 5rem;
     margin: 10px 0;
     font-weight: bold;
+    font-family: var(--font-primary);
 }
 
 /* Sign Up Button */
 .signup-btn {
     background: none;
-    border: 2px solid black;
-    color: var(--color1);
+    border: 2px solid var(--color5);
+    color: var(--color5);
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
     margin-top: 15px;
     transition: background 0.3s ease-in-out;
+    font-family: var(--font-secondary);
 }
 
 .signup-btn:hover {
-    background: var(--color1);
-    color: #121212;
+    background: var(--color5);
+    color: var(--color1);
 }
 
 /* Popular Badge */
@@ -65,11 +77,12 @@
     position: absolute;
     top: -15px;
     right: -15px;
-    background-color: grey;
-    color: #121212;
+    background-color: var(--color5);
+    color: var(--color3);
     font-size: 14px;
     font-weight: bold;
     padding: 15px 25px;
+    font-family: var(--font-secondary);
     border-radius: 50%;
     text-transform: uppercase;
     clip-path: polygon(

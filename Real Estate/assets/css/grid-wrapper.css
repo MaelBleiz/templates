@@ -1,3 +1,12 @@
+@import url('variables.css');
+
+
+#pictures {
+    background-color: var(--color2);
+    padding-bottom: 22%;
+    clip-path: polygon(78% 100%, 100% 90%, 100% 0%, 0% 0%, 0% 90%);
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -43,4 +52,5 @@ img {
     text-align: center;
     font-size: 5rem;
     margin-bottom: 40px;
+    font-family: var(--font-primary);
   }

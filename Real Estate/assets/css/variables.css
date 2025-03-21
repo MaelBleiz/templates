@@ -1,0 +1,18 @@
+/* Global Variables */
+:root {
+    /* 🎨 Colors */
+    --color1: #93866B; /* Light color 93866B bad083 7D3D3B 825B3F 424547*/
+    --color2: #bdbab8; /* Background color */
+    --color3: #7D3D3B; /* Text color */
+    --color4: #825B3F; /* sSecondary color) */ 
+    --color5: #94a668;  /* call to action */
+    
+    /* 🖋️ Fonts */
+    --font-primary: 'Playfair Display', sans-serif;
+    --font-secondary: 'Lora', sans-serif;
+
+    /* 🏗️ Layout Defaults 
+    --border-radius: 10px;
+    --transition-speed: 0.3s;
+}
+*/
