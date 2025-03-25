@@ -1,7 +1,9 @@
 @import url('variables.css');
 
 
-
+.white-bg nav ul li a {
+    color: black; /* Dark text for visibility */
+  }
 
 img {
     max-width: 100%;
@@ -45,8 +47,9 @@ img {
     grid-row: span 2;
 }
 
-#pictures h2 {
+h2 {
     text-align: center;
+    padding-top: 5%;
     font-size: 5rem;
     margin-bottom: 40px;
     font-family: var(--font-primary);

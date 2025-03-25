@@ -1,0 +1,48 @@
+*Page contact.html */
+
+.white-bg nav ul li a {
+    color: black; /* Dark text for visibility */
+  }
+
+
+  .contact {
+    background-color: var(--color2);
+    
+  }
+
+  .contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+  }
+  
+  .contact label {
+    display: block;
+    margin: 10px 0 5px;
+    font-family: var(--font-secondary);
+    
+  }
+  
+  .contact input, .contact textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+
+  }
+  
+  .contact button {
+    background: var(--color5);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+
+    cursor: pointer;
+  }
+  
+  .contact h2 {
+    text-align: center;
+    margin-top: 8%;
+    font-size: 3rem;
+    padding-top: 40px;
+  }

@@ -18,17 +18,18 @@ async function loadComponent(selector, file) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+    let pathPrefix = window.location.pathname.includes("pages") ? "../" : "";  // If "pages" folder, go up one level
     const components = [
       
-        { selector: "#header", file: "components/header.html" },
+        { selector: "#header", file: pathPrefix + "components/header.html" },
         { selector: "#hero", file: "components/hero.html" },
-        { selector: "#pictures", file: "components/pictures.html" },
         { selector: "#prices", file: "components/plans.html" },
         { selector: "#services", file: "components/services.html" },
+        { selector: "#location", file: "components/location.html" },
 
        // { selector: "#reviews", file: "components/reviews.html" },
-       // { selector: "#footer", file: "components/footer.html" },
-       // { selector: "#location", file: "components/location.html" },
+        { selector: "#footer", file: "components/footer.html" },
+
        //  { selector: "#contact", file: "components/contact.html" } 
     ];
 
