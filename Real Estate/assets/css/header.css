@@ -1,0 +1,62 @@
+/* Header */
+
+header {
+    background: transparent;
+    color: var(--color1);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15%; /* Adjusted padding to avoid overflow */
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  header.scrolled {
+    background-color: white; /* White background when scrolled */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a slight shadow */
+    color: black;
+  }
+  
+  header .logo {
+    max-height: 120px;
+    text-decoration: none;
+    padding: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0 40px;
+    margin: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+    transition: color 0.3s ease-in-out;
+  }
+
+  header.scrolled nav ul li a {
+    color: black; /* Dark text when scrolled */
+  }
+  
+    /* Hamburger Menu Button */
+    .menu-toggle {
+      background: none;
+      border: none;
+      font-size: 1.875rem;
+      cursor: pointer;
+      display: none; /* Hidden by default on larger screens */
+      color: var(--color1);
+    }

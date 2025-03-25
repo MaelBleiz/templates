@@ -19,15 +19,17 @@ async function loadComponent(selector, file) {
 
 document.addEventListener("DOMContentLoaded", () => {
     const components = [
+      
         { selector: "#header", file: "components/header.html" },
-        { selector: "#footer", file: "components/footer.html" },
         { selector: "#hero", file: "components/hero.html" },
         { selector: "#pictures", file: "components/pictures.html" },
-        { selector: "#reviews", file: "components/reviews.html" },
-        { selector: "#services", file: "components/services.html" },
         { selector: "#prices", file: "components/plans.html" },
-        { selector: "#location", file: "components/location.html" },
-        { selector: "#contact", file: "components/contact.html" }
+        { selector: "#services", file: "components/services.html" },
+
+       // { selector: "#reviews", file: "components/reviews.html" },
+       // { selector: "#footer", file: "components/footer.html" },
+       // { selector: "#location", file: "components/location.html" },
+       //  { selector: "#contact", file: "components/contact.html" } 
     ];
 
     components.forEach(({ selector, file }) => loadComponent(selector, file));
