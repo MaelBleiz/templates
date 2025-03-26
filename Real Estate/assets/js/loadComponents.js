@@ -26,9 +26,9 @@ document.addEventListener("DOMContentLoaded", () => {
         { selector: "#prices", file: "components/plans.html" },
         { selector: "#services", file: "components/services.html" },
         { selector: "#location", file: "components/location.html" },
-
-       // { selector: "#reviews", file: "components/reviews.html" },
         { selector: "#footer", file: "components/footer.html" },
+       // { selector: "#reviews", file: "components/reviews.html" },
+
 
        //  { selector: "#contact", file: "components/contact.html" } 
     ];

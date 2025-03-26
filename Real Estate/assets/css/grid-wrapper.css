@@ -1,9 +1,9 @@
 @import url('variables.css');
 
 
-.white-bg nav ul li a {
-    color: black; /* Dark text for visibility */
-  }
+body {
+    background-color: var(--color2);
+}
 
 img {
     max-width: 100%;
