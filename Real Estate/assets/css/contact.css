@@ -43,6 +43,20 @@
   .contact h2 {
     text-align: center;
     margin-top: 8%;
-    font-size: 3rem;
+    font-size: var(--fontsize-h2);
     padding-top: 40px;
   }
+
+
+@media (max-width: 768px) {
+  .contact form {
+    max-width: 600px;
+    margin: 5%;
+    padding-bottom: 40px;
+  }
+
+  .contact h2 {
+    margin-top: 15%;
+    padding-top: 40px;
+  }
+}

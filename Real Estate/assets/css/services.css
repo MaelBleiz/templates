@@ -9,7 +9,7 @@
   
   .services h2 {
     text-align: center;
-    font-size: 5rem;
+    font-size: var(--fontsize-h2);
     margin-bottom: 40px;
     font-family: var(--font-primary);
   }
@@ -40,18 +40,27 @@
   }
   
   .service-box h3 {
-    font-size: 2rem;
+    font-size: var(--fontsize-h3);
     margin-bottom: 15px;
     color: #333;
   
   }
   
   .service-box p {
-    font-size: 1rem;
+    font-size: var(--fontsize-p);
     color: black;
   }
 
   .service-box .material-icons {
-    font-size: 2rem;
+    font-size: var(--fontsize-h3);
     color: var(--color5)
+  }
+
+  @media (max-width: 768px) {
+    .service-grid {
+      display: grid;
+      padding: 20px;
+      grid-template-columns: repeat(1, 1fr); /* Responsive grid */
+      gap: 20px; /* Space between boxes */
+    }
   }

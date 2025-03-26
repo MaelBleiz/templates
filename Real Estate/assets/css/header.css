@@ -43,7 +43,7 @@ header {
   nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 1.25rem;
+    font-size: var(--fontsize-p);
     transition: color 0.3s ease-in-out;
   }
 
@@ -55,7 +55,7 @@ header {
     .menu-toggle {
       background: none;
       border: none;
-      font-size: 1.875rem;
+      font-size: var(--fontsize-p);
       cursor: pointer;
       display: none; /* Hidden by default on larger screens */
       color: var(--color1);

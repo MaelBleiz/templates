@@ -8,11 +8,31 @@
     --color5: #94a668;  /* call to action */
     
     /* 🖋️ Fonts */
-    --font-primary: 'Playfair Display', sans-serif;
-    --font-secondary: 'Lora', sans-serif;
+    --font-primary: 'Playfair Display', serif;
+    --font-secondary: 'Lora', serif;
 
-    /* 🏗️ Layout Defaults 
-    --border-radius: 10px;
+    /* 🏗️ Layout Defaults  */
+    --border-radius: 0;
     --transition-speed: 0.3s;
+
+    /* Font size */
+    
+    --fontsize-h1: 7rem;
+    --fontsize-p: 1.25rem;
+    --fontsize-h2: 5rem;
+    --fontsize-h3: 2rem;
+
+    --fontsize-tablet-h1: 7rem;
+    --fontsize-tablet-p: 1.5rem;
+    --fontsize-tablet-h2: 5rem;
 }
-*/
+
+@media (max-width: 768px) {
+    :root {
+        --fontsize-h1: 3rem;
+        --fontsize-p: 0.85rem;
+        --fontsize-h2: 2rem;
+        --fontsize-h3: 1.25rem;
+    }
+}
+

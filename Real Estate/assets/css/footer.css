@@ -22,5 +22,5 @@
   .footer nav ul li a {
     color: black;
     text-decoration: none;
-    font-size: 1.25rem;
+    font-size: var(--fontsize-p);
   }

@@ -22,7 +22,7 @@
 
 .pricing-section h2 {
     text-align: center;
-    font-size: 5rem;
+    font-size: var(--fontsize-h2);
     font-family: var(--font-primary);
 }
 
@@ -34,6 +34,10 @@
     width: 300px;
     position: relative;
     transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 
 .pricing-card:hover {
@@ -43,12 +47,12 @@
 /* Pricing Card Headings */
 .pricing-card h3 {
     margin-top: 0;
-    font-size: 18px;
+    font-size: var(--fontsize-p);
     font-family: var(--font-primary);
 }
 
 .pricing-card h1 {
-    font-size: 5rem;
+    font-size: var(--fontsize-h2);
     margin: 10px 0;
     font-weight: bold;
     font-family: var(--font-primary);
@@ -60,11 +64,12 @@
     border: 2px solid var(--color5);
     color: var(--color5);
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: var(--fontsize-p);
     cursor: pointer;
     margin-top: 15px;
     transition: background 0.3s ease-in-out;
     font-family: var(--font-secondary);
+    text-decoration: none;
 }
 
 .signup-btn:hover {
@@ -90,4 +95,11 @@
         92% 72%, 83% 93%, 63% 82%, 50% 100%, 37% 82%, 
         17% 93%, 8% 72%, 0% 50%, 8% 28%, 17% 7%, 37% 18%
     ); /* Creates a spiked/star shape */
+}
+
+@media (max-width: 768px) {
+    .pricing-section {
+        padding: 15%;
+        margin-top: 15%;
+    }
 }

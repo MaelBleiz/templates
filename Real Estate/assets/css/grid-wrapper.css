@@ -50,7 +50,7 @@ img {
 h2 {
     text-align: center;
     padding-top: 5%;
-    font-size: 5rem;
+    font-size: var(--fontsize-h2);
     margin-bottom: 40px;
     font-family: var(--font-primary);
   }
