@@ -1,4 +1,6 @@
-*Page contact.html */
+/* Page contact.html */
+
+@import url('variables.css');
 
 .white-bg nav ul li a {
     color: black; /* Dark text for visibility */

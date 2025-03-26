@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { selector: "#services", file: "components/services.html" },
         { selector: "#location", file: "components/location.html" },
         { selector: "#footer", file: "components/footer.html" },
-       // { selector: "#reviews", file: "components/reviews.html" },
+        { selector: "#FAQ", file: "components/FAQ.html" },
 
 
        //  { selector: "#contact", file: "components/contact.html" } 

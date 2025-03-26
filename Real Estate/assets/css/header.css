@@ -47,6 +47,10 @@ header {
     transition: color 0.3s ease-in-out;
   }
 
+  nav ul li a:hover {
+    color: var(--color2);
+  }
+
   header.scrolled nav ul li a {
     color: black; /* Dark text when scrolled */
   }

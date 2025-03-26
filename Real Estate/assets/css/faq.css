@@ -1,0 +1,49 @@
+
+@import url('variables.css');
+
+.faq-section {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .faq-question {
+    background-color: white;
+    padding: 15px;
+    cursor: pointer;
+  }
+
+  .faq-section h2 {
+    font-size: var(--fontsize-h2);
+    text-align: center;
+    font-family: var(--font-primary);
+  }
+  
+  .faq-question h3 {
+    margin: 0;
+    font-size: var(--fontsize-h3);
+    font-family: var(--font-secondary);
+    color: black;
+  }
+  
+    .faq-answer {
+    display: none;
+    padding: 10px 15px;
+    background-color: white;
+    border-left: 3px solid var(--color2);
+    margin-top: 5px;
+    font-size: var(--fontsize-p);
+  }
+  
+  .faq-answer.active {
+    display: block;
+  }
+
+
+  

@@ -1,15 +1,15 @@
 /* Global Variables */
 :root {
     /* 🎨 Colors */
-    --color1: #93866B; /* Light color 93866B bad083 7D3D3B 825B3F 424547*/
-    --color2: #bdbab8; /* Background color */
-    --color3: #7D3D3B; /* Text color */
-    --color4: #825B3F; /* sSecondary color) */ 
-    --color5: #94a668;  /* call to action */
+    --color1: #EEDEC5; /* Light color 93866B bdbab8 braun 7D3D3B 825B3F 424547*/
+    --color2: #be4343; /* Background color bdbab8 */
+    --color3: #7D3D3B; /* Text color ffbe98 */ 
+    --color4: #be4343; /* Secondary color */ 
+    --color5: #94a668;  /* call to action 94a668*/
     
     /* 🖋️ Fonts */
-    --font-primary: 'Playfair Display', serif;
-    --font-secondary: 'Lora', serif;
+    --font-primary: 'Playfair Display', sans-serif;
+    --font-secondary: 'Lora', sans-serif;
 
     /* 🏗️ Layout Defaults  */
     --border-radius: 0;
