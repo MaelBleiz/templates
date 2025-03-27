@@ -6,8 +6,10 @@
 .footer {
     color: var(--color2);
     text-align: center;
-    padding: 1%;
-    margin-top: 0;
+    padding: 5%;
+    margin-top: 20px;
+    position: relative;
+    width: 100%; 
   }
   
   .footer a {
@@ -17,10 +19,35 @@
 
   .footer nav ul {
     justify-content: center;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
   }
+
+  .footer nav ul li {
+    display: inline-block;
+    margin: 0 10px; /* Adds spacing between items */
+}
 
   .footer nav ul li a {
     color: black;
     text-decoration: none;
     font-size: var(--fontsize-p);
   }
+
+  /* Media Queries for Small Screens */
+@media (max-width: 600px) {
+  .footer {
+      padding: 10%; /* Increase padding on smaller screens */
+      font-size: var(--fontsize-p); /* Ensure font size is readable */
+  }
+
+  .footer nav ul {
+      flex-direction: column; /* Stack links vertically on small screens */
+  }
+
+  .footer nav ul li {
+      margin: 5px 0; /* Adds vertical spacing between items */
+  }
+}

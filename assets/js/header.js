@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Use MutationObserver to detect when the header is added
   const observer = new MutationObserver(() => {
       const menuToggle = document.querySelector(".menu-toggle");
-      const nav = document.querySelector("nav");
+      const nav = document.querySelector("header nav");
 
       if (menuToggle) {
           console.log("menuToggle found! Adding event listener...");
