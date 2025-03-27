@@ -6,6 +6,9 @@
 .pricing-section {
     font-family: var(--font-secondary);
     background-color: var(--color2);
+    background-image: url("../images/sponge-texture.jpg"); /* Sponge texture */
+    background-size: cover; /* Ensures the texture covers the area */
+    background-blend-mode: soft-light; /* Blends the color & texture */
     clip-path: polygon(32% 0%, 100% 10%, 100% 100%, 0% 100%, 0% 10%);
     padding: 5%;
     margin-top: 5%;
