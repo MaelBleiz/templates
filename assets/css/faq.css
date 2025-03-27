@@ -8,6 +8,17 @@
     padding: 20px;
   }
   
+  .faq-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .faq-content {
+    width: 60%; /* Adjust this if you want to change the size of the FAQ content */
+    padding-right: 20px; /* Space between the content and the image */
+}
+
   .faq-item {
     margin-bottom: 20px;
     border-bottom: 1px solid #ddd;
@@ -45,5 +56,15 @@
     display: block;
   }
 
+/* Style for the image */
+.faq-image {
+  width: 35%; /* Adjust this if you want a different width for the image */
+}
 
+.faq-image img {
+  width: 100%;
+  height: auto;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
   
