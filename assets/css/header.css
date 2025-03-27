@@ -1,21 +1,21 @@
 /* Header */
 
 header {
-    background: transparent;
-    color: var(--color1);
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 15%; /* Adjusted padding to avoid overflow */
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    transition: background-color 0.3s ease-in-out; /* Smooth transition */
-  }
-  
+  background: transparent;
+  color: var(--color1);
+  text-align: center;
+  display: flex;
+ justify-content: space-between;
+ padding: 10px 15%; /* Adjusted padding to avoid overflow */
+ align-items: center;
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ z-index: 1000;
+ transition: background-color 0.3s ease-in-out; /* Smooth transition */
+}
+
   header.scrolled {
     background-color: white; /* White background when scrolled */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a slight shadow */
@@ -59,8 +59,47 @@ header {
     .menu-toggle {
       background: none;
       border: none;
-      font-size: var(--fontsize-p);
+      font-size: var(--fontsize-h2);
       cursor: pointer;
       display: none; /* Hidden by default on larger screens */
       color: var(--color1);
     }
+
+
+/* Mobile Navigation */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;      /* Show button on smaller screens */
+    top: 30px;
+    right: 2%;
+  }
+
+  nav ul {
+    display: none; /* Hide menu by default */
+    flex-direction: column;
+    position: absolute;
+    top: 30px; /* Adjust based on header height */
+    right: 2%;
+    background: var(--color1);
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: block;
+    padding: 10px 0;
+  }
+
+  nav ul li a {
+    color: white;
+    display: block;
+    font-size: var(--fontsize-h3);
+  }
+
+  /* Show menu when active */
+  nav.active ul {
+    display: flex;
+  }
+
+}
