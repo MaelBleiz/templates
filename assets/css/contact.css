@@ -49,6 +49,14 @@
     padding-top: 40px;
   }
 
+  .contact p {
+    font-family: var(--font-secondary);
+    font-size: var(--fontsize-p);
+    color: var(--color1);
+    text-align: center;
+    line-height: 1.5;
+  }
+
 
 @media (max-width: 768px) {
   .contact form {
