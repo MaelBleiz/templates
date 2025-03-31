@@ -65,6 +65,10 @@ header {
       color: var(--color1);
     }
 
+    .white-bg .menu-toggle {
+      color: black; /* Dark text for visibility */
+    }
+
 
 /* Mobile Navigation */
 @media (max-width: 768px) {

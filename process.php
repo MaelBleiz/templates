@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $recaptcha_response = $_POST["g-recaptcha-response"];
 
     // Verify reCAPTCHA with Google
-    $secretKey = "*************"; // Replace with your actual secret key
+    $secretKey = "6LcR-twqAAAAAOsTtfZEsSSw-g5NCmCCysdZcq8t"; // Replace with your actual secret key
     $url = "https://www.google.com/recaptcha/api/siteverify";
     
     $data = [
@@ -28,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($captcha_success->success) {
         // reCAPTCHA is valid, proceed with sending the email
-        $to = "********"; // Replace with your email
+        $to = "contact@louvart-offices.com"; // Replace with your email
         $subject = "New Contact Form Submission";
         $headers = "From: $email\r\nReply-To: $email\r\n";
         $body = "Name: $name\nEmail: $email\n\nMessage:\n$message";

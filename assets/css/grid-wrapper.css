@@ -54,3 +54,9 @@ h2 {
     margin-bottom: 40px;
     font-family: var(--font-primary);
   }
+
+
+  @media (max-width: 768px) {
+    h2 {
+        padding-top: 20%;
+   }

@@ -1,17 +1,17 @@
 /* Global Variables */
 :root {
-    /* 🎨 Colors */
+    /*  Colors */
     --color1: #EEDEC5; /* Light color 93866B bdbab8 braun 7D3D3B 825B3F 424547*/
     --color2: #be4343; /* Background color bdbab8 */
     --color3: #7D3D3B; /* Text color ffbe98 */ 
     --color4: #be4343; /* Secondary color */ 
     --color5: #94a668;  /* call to action 94a668*/
     
-    /* 🖋️ Fonts */
+    /*  Fonts */
     --font-primary: 'Playfair Display', sans-serif;
     --font-secondary: 'Lora', sans-serif;
 
-    /* 🏗️ Layout Defaults  */
+    /*  Layout Defaults  */
     --border-radius: 0;
     --transition-speed: 0.3s;
 
